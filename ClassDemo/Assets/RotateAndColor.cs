@@ -12,8 +12,8 @@ public class RotateAndColor : MonoBehaviour
 
     IEnumerator RotateColor()
     {
-        yield return new WaitForSeconds(3f);
-        transform.Rotate(0,10,0);
-        GetComponent<MeshRenderer>().material.color = new Color(0,1,0,1);
+        yield return new WaitForSeconds(5f);
+        transform.Rotate(0,10,30);
+        GetComponent<MeshRenderer>().material.color = new Color(0,1,1,1);
     }
 }
